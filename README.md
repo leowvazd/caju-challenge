@@ -1,2 +1,2 @@
 # caju-challenge
-Technical Challenge to do at home
+Technical Challenge to do at home.
