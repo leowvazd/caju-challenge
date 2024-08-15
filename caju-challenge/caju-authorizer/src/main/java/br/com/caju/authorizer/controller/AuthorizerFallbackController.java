@@ -1,6 +1,6 @@
 package br.com.caju.authorizer.controller;
 
-import static br.com.caju.authorizer.domain.ApplicationContants.REQUEST_MAPPING_FALLBACK;
+import static br.com.caju.authorizer.domain.ApplicationConstants.REQUEST_MAPPING_FALLBACK;
 
 import br.com.caju.authorizer.entity.Transaction;
 import br.com.caju.authorizer.service.AuthorizerFallbackService;

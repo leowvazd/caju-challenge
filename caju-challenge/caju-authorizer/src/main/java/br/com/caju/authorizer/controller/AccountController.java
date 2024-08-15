@@ -1,6 +1,6 @@
 package br.com.caju.authorizer.controller;
 
-import static br.com.caju.authorizer.domain.ApplicationContants.REQUEST_MAPPING_ACCOUNT;
+import static br.com.caju.authorizer.domain.ApplicationConstants.REQUEST_MAPPING_ACCOUNT;
 
 import br.com.caju.authorizer.entity.Account;
 import br.com.caju.authorizer.service.AccountService;
