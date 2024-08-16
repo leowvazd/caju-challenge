@@ -80,7 +80,7 @@ public record AuthorizerFallbackService(AccountRepository accountRepository,
         // Armazena os comerciantes conhecidos em uma espécie "biblioteca" HashMap para consulta
         merchantNameHashMap.put(Pattern.compile("UBER TRIP", Pattern.CASE_INSENSITIVE), MccEnum.CASH);
         merchantNameHashMap.put(Pattern.compile("UBER EATS", Pattern.CASE_INSENSITIVE), MccEnum.MEAL);
-        merchantNameHashMap.put(Pattern.compile("PAG\\*JoseDaSilva", Pattern.CASE_INSENSITIVE), MccEnum.CASH);
+        merchantNameHashMap.put(Pattern.compile("PAG\\*JoseDaSilva", Pattern.CASE_INSENSITIVE), MccEnum.FOOD);
         merchantNameHashMap.put(Pattern.compile("PICPAY\\*BILHETEUNICO", Pattern.CASE_INSENSITIVE), MccEnum.CASH);
 
         String merchantName = transaction.getMerchant();
